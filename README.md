@@ -1,4 +1,4 @@
-##Welcome to CoupanApp
+# Welcome to CoupanApp
 
-#Technologies Used
-HTML 
+## Technologies Used
+- HTML 
