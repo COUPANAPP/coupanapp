@@ -9,11 +9,6 @@ import { FaStore } from "react-icons/fa";
 import { BsFillPersonFill } from "react-icons/bs"
 import { CiHeart } from "react-icons/ci";
 import { FaHeart } from "react-icons/fa";
-import usePlacesAutocomplete, {
-  getGeocode,
-  getLatLng,
-} from "use-places-autocomplete";
-
 
 const Navbar = ({setShowLogin}) => {
 
@@ -22,21 +17,6 @@ const Navbar = ({setShowLogin}) => {
     const {getTotalCartAmount} = useContext(StoreContext);
 
     const [isLiked, setIsLiked] = useState(false);
-
-    // const LocationSearch = ({ onSelect }) => {
-    // const {
-    //   ready,
-    //   value,
-    //   setValue,
-    //   suggestions: { status, data },
-    //   clearSuggestions,
-    // } = usePlacesAutocomplete();
-
-    //   const handleSelect = async (address) => {
-    //   setValue(address, false);
-    //   clearSuggestions();
-    //   onSelect(address);
-    // };
 
     return (
         <div className='navbar'>
